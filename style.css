@@ -1,0 +1,109 @@
+/* h1 {
+        text-align: center;
+        margin-top: 300px;
+        font-size: 100px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-weight: bold;
+        transition: all 1s;
+        color: white;
+        font-style: italic;
+      } */
+div.tv {
+  height: 500px;
+  width: 630px;
+  border: solid 5px rgb(32, 56, 56);
+  position: relative;
+  background-color: aquamarine;
+}
+
+.header h1 {
+  font-size: 15px;
+  position: absolute;
+  margin-top: 3px;
+  left: 230px;
+}
+
+.header p {
+  position: absolute;
+  font-size: 10px;
+  left: 180px;
+  top: 8px;
+}
+
+.waktu-sholat {
+  background-color: rgb(53, 50, 50);
+  margin-top: 40px;
+  width: 100%;
+  height: 80px;
+}
+table {
+  /* margin: 0 auto; */
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+
+table tr:nth-child(2) td {
+  border: solid 2px black;
+  padding: 5px;
+  color: white;
+}
+table tr:first-child td {
+  border: solid 2px rgb(0, 250, 54);
+  text-align: center;
+  background-color: chartreuse;
+  font-weight: bold;
+}
+
+span.jam {
+  text-align: center;
+  display: inline-block;
+  height: 20px;
+  width: 80px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: rgb(110, 253, 82);
+  font-size: 18px;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+span.date {
+  text-align: center;
+  display: inline-block;
+  height: 20px;
+  width: 130px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: rgb(110, 253, 82);
+  font-size: 13px;
+  position: absolute;
+  /* right: 10px; */
+  top: 3px;
+}
+
+.slide-gambar {
+  width: 615px;
+  height: 345px;
+  position: absolute;
+  top: 127px;
+  left: 7px;
+}
+
+.slide-gambar img {
+  width: 100%;
+  height: 100%;
+}
+
+.running-text {
+  width: 100%;
+  height: 25px;
+  color: rgb(255, 250, 250);
+  background-color: rgb(53, 50, 50);
+  position: absolute;
+  bottom: 0px;
+  font-weight: bold;
+  line-height: 25px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
